@@ -14,7 +14,7 @@
 
 <style scoped>
 .menu{
-    position: absolute;
+    position: fixed;
     bottom: 80px;
     left: calc(50% - 100px);
     width: 200px;
