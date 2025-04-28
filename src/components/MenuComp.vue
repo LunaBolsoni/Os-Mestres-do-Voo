@@ -1,19 +1,27 @@
 <script setup>
+import { computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+
+const route = useRoute()
+const router = useRouter()
+
+const actualPath = computed(() => route.path)
 </script>
 
 <template>
   <div class="menu">
-    <div class="icon active">
-      <img src="/src/components/icons/house.svg" alt="">
-    </div>
-    <div class="icon">
-      <img src="/src/components/icons/dragon.svg" alt="">
-    </div>
-    </div>
+    <router-link class="icon" :class="{ active: actualPath === '/' }" to="/">
+        <img src="/src/components/icons/house.svg" alt="Home" />
+    </router-link>
+
+    <router-link class="icon" :class="{ active: actualPath === '/dragons' }" to="/dragons"> 
+        <img src="/src/components/icons/dragon.svg" alt="Dragons" />
+    </router-link>
+  </div>
 </template>
 
 <style scoped>
-.menu{
+.menu {
   position: fixed;
   bottom: 80px;
   left: calc(50% - 100px);
@@ -26,7 +34,8 @@
   align-items: center;
   gap: 30px;
 }
-.icon{
+
+.icon {
   width: 50px;
   height: 50px;
   border-radius: 10px;
@@ -36,7 +45,8 @@
   color: white;
   cursor: pointer;
 }
-.active{
+
+.active {
   background-color: #9692FF;
 }
 </style>
