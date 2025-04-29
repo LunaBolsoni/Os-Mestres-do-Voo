@@ -14,7 +14,7 @@ const actualPath = computed(() => route.path)
         <img src="/src/components/icons/house.svg" alt="Home" />
     </router-link>
 
-    <router-link class="icon" :class="{ active: actualPath === '/dragons' }" to="/dragons"> 
+    <router-link class="icon" :class="{ active: actualPath === '/dragoes' }" to="/dragoes"> 
         <img src="/src/components/icons/dragon.svg" alt="Dragons" />
     </router-link>
   </div>

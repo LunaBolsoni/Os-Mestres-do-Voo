@@ -1,122 +1,124 @@
-[
-    {
-      "id": 1,
-      "especie": "Pesadelo Monstruoso",
-      "tipo": "Fogo",
-      "desc": "Um dragão feroz e intimidador que pode cobrir seu corpo com chamas, tornando-se uma arma viva.",
-      "cor": "#8B0000",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/pesadelo_monstruoso.png",
-      "imagem_dragao_card": "src/assets/dragoes/pesadelo_monstruoso_card.png" 
-    },
-    {
-      "id": 2,
-      "especie": "Lâmina Veloz",
-      "tipo": "Corte/Voador",
-      "desc": "Um dragão de grande envergadura cujas asas funcionam como lâminas afiadas, capazes de cortar árvores com facilidade.",
-      "cor": "#A0522D",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/lamina_veloz.png",
-      "imagem_dragao_card": "src/assets/dragoes/lamina_veloz_card.png" 
-    },
-    {
-      "id": 3,
-      "especie": "Fantasma do Deserto",
-      "tipo": "Desconhecido",
-      "desc": "Um dragão misterioso do deserto, conhecido por sua natureza esquiva e aparência única com listras.",
-      "cor": "#DEB887",
-      "cor texto": "#000000",
-      "imagem_dragao": "src/assets/dragoes/fantasma_do_deserto.png",
-      "imagem_dragao_card": "src/assets/dragoes/fantasma_do_deserto_card.png" 
-    },
-    {
-      "id": 4,
-      "especie": "Canção da Morte",
-      "tipo": "Mistério",
-      "desc": "Um dragão perigoso conhecido por sua canção hipnotizante que atrai outros dragões. Ele os prende em uma teia de âmbar pegajoso.",
-      "cor": "#556B2F",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/cancao_da_morte.png",
-      "imagem_dragao_card": "src/assets/dragoes/cancao_da_morte_card.png" 
-    },
-    {
-      "id": 5,
-      "especie": "Terror Terrível",
-      "tipo": "Fogo",
-      "desc": "Pequenos dragões, mas em grandes números são perigosos. São inteligentes e curiosos.",
-      "cor": "#FF4500",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/terror_terrivel.png",
-      "imagem_dragao_card": "src/assets/dragoes/terror_terrivel_card.png" 
-    },
-    {
-      "id": 6,
-      "especie": "Golpe Triplo",
-      "tipo": "Afiado",
-      "desc": "Um dragão rápido e ágil com três caudas terminadas em ferrões venenosos, tornando-o um oponente perigoso.",
-      "cor": "#36454F",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/ataque_triplo_card.png",
-      "imagem_dragao_card": "src/assets/dragoes/ataque_trip.png" 
-    },
-    {
-      "id": 7,
-      "especie": "Zíper Arrepiante",
-      "tipo": "Fogo",
-      "desc": "Um dragão com duas cabeças distintas, cada uma cuspindo um tipo diferente de gás que se inflama ao se encontrar.",
-      "cor": "#8FBC8F",
-      "cor texto": "#000000",
-      "imagem_dragao": "src/assets/dragoes/ziper_arrepiante.png",
-      "imagem_dragao_card": "src/assets/dragoes/ziper_arrepiante_card.png" 
-    },
-    {
-      "id": 8,
-      "especie": "Fúria da Noite",
-      "tipo": "Ataque",
-      "desc": "Um dos dragões mais rápidos e inteligentes, conhecido por seus disparos de plasma concentrado e sua natureza esquiva.",
-      "cor": "#1C1C1C",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/furia_da_noite.png",
-      "imagem_dragao_card": "src/assets/dragoes/furia_da_noite_card.png" 
-    },
-    {
-      "id": 9,
-      "especie": "Tambor Trovejante",
-      "tipo": "Maré",
-      "desc": "Um dragão largo e achatado, geralmente azul, conhecido por seu rugido incrivelmente alto que pode ser devastador.",
-      "cor": "#4682B4",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/tambor_trovao.png",
-      "imagem_dragao_card": "src/assets/dragoes/tambor_trovao_card.png" 
-    },
-    {
-      "id": 10,
-      "especie": "Gronckle",
-      "tipo": "Rocha",
-      "desc": "Um dragão atarracado e resistente, com uma pele grossa e nodosa. Ele pode vomitar rochas derretidas e tem um voo lento, mas constante.",
-      "cor": "#A9A9A9",
-      "cor texto": "#000000",
-      "imagem_dragao": "src/assets/dragoes/gronckle.png",
-      "imagem_dragao_card": "src/assets/dragoes/gronckle_card.png" 
-    },
-    {
-      "id": 11,
-      "especie": "Nadder Mortal",
-      "tipo": "Afiado",
-      "desc": "Um dragão belo e mortal, coberto de espinhos venenosos e com um fogo extremamente quente.",
-      "cor": "#C71585",
-      "cor texto": "#FFFFFF",
-      "imagem_dragao": "src/assets/dragoes/nadder_mortal.png",
-      "imagem_dragao_card": "src/assets/dragoes/nadder_mortal_card.png" 
-    },
-    {
-      "id": 12,
-      "especie": "Chicote Navalha",
-      "tipo": "Afiado",
-      "desc": "Um dragão elegante com asas incrivelmente afiadas e uma coloração prateada distintiva.",
-      "cor": "#C0C0C0",
-      "cor texto": "#000000",
-      "imagem_dragao": "src/assets/dragoes/cauda_navalha.png",
-      "imagem_dragao_card": "src/assets/dragoes/cauda_navalha_card.png" 
-    }
-]
+{
+    "dragoes": [
+        {
+        "id": 1,
+        "especie": "Pesadelo Monstruoso",
+        "tipo": "Fogo",
+        "desc": "Um dragão feroz e intimidador que pode cobrir seu corpo com chamas, tornando-se uma arma viva.",
+        "cor": "#8B0000",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/pesadelo_monstruoso.png",
+        "imagem_dragao_card": "src/assets/dragoes/pesadelo_monstruoso_card.png" 
+        },
+        {
+        "id": 2,
+        "especie": "Lâmina Veloz",
+        "tipo": "Corte/Voador",
+        "desc": "Um dragão de grande envergadura cujas asas funcionam como lâminas afiadas, capazes de cortar árvores com facilidade.",
+        "cor": "#A0522D",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/lamina_veloz.png",
+        "imagem_dragao_card": "src/assets/dragoes/lamina_veloz_card.png" 
+        },
+        {
+        "id": 3,
+        "especie": "Fantasma do Deserto",
+        "tipo": "Desconhecido",
+        "desc": "Um dragão misterioso do deserto, conhecido por sua natureza esquiva e aparência única com listras.",
+        "cor": "#DEB887",
+        "cor texto": "#000000",
+        "imagem_dragao": "src/assets/dragoes/fantasma_do_deserto.png",
+        "imagem_dragao_card": "src/assets/dragoes/fantasma_do_deserto_card.png" 
+        },
+        {
+        "id": 4,
+        "especie": "Canção da Morte",
+        "tipo": "Mistério",
+        "desc": "Um dragão perigoso conhecido por sua canção hipnotizante que atrai outros dragões. Ele os prende em uma teia de âmbar pegajoso.",
+        "cor": "#556B2F",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/cancao_da_morte.png",
+        "imagem_dragao_card": "src/assets/dragoes/cancao_da_morte_card.png" 
+        },
+        {
+        "id": 5,
+        "especie": "Terror Terrível",
+        "tipo": "Fogo",
+        "desc": "Pequenos dragões, mas em grandes números são perigosos. São inteligentes e curiosos.",
+        "cor": "#FF4500",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/terror_terrivel.png",
+        "imagem_dragao_card": "src/assets/dragoes/terror_terrivel_card.png" 
+        },
+        {
+        "id": 6,
+        "especie": "Golpe Triplo",
+        "tipo": "Afiado",
+        "desc": "Um dragão rápido e ágil com três caudas terminadas em ferrões venenosos, tornando-o um oponente perigoso.",
+        "cor": "#36454F",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/ataque_triplo.png",
+        "imagem_dragao_card": "src/assets/dragoes/ataque_triplo_card.png" 
+        },
+        {
+        "id": 7,
+        "especie": "Zíper Arrepiante",
+        "tipo": "Fogo",
+        "desc": "Um dragão com duas cabeças distintas, cada uma cuspindo um tipo diferente de gás que se inflama ao se encontrar.",
+        "cor": "#8FBC8F",
+        "cor texto": "#000000",
+        "imagem_dragao": "src/assets/dragoes/ziper_arrepiante.png",
+        "imagem_dragao_card": "src/assets/dragoes/ziper_arrepiante_card.png" 
+        },
+        {
+        "id": 8,
+        "especie": "Fúria da Noite",
+        "tipo": "Ataque",
+        "desc": "Um dos dragões mais rápidos e inteligentes, conhecido por seus disparos de plasma concentrado e sua natureza esquiva.",
+        "cor": "#1C1C1C",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/furia_da_noite.png",
+        "imagem_dragao_card": "src/assets/dragoes/furia_da_noite_card.png" 
+        },
+        {
+        "id": 9,
+        "especie": "Tambor Trovejante",
+        "tipo": "Mare",
+        "desc": "Um dragão largo e achatado, geralmente azul, conhecido por seu rugido incrivelmente alto que pode ser devastador.",
+        "cor": "#4682B4",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/tambor_trovao.png",
+        "imagem_dragao_card": "src/assets/dragoes/tambor_trovao_card.jpg" 
+        },
+        {
+        "id": 10,
+        "especie": "Gronckle",
+        "tipo": "Rocha",
+        "desc": "Um dragão atarracado e resistente, com uma pele grossa e nodosa. Ele pode vomitar rochas derretidas e tem um voo lento, mas constante.",
+        "cor": "#A9A9A9", 
+        "cor texto": "#000000",
+        "imagem_dragao": "src/assets/dragoes/gronckle.png",
+        "imagem_dragao_card": "src/assets/dragoes/gronckle_card.png" 
+        },
+        {
+        "id": 11,
+        "especie": "Nadder Mortal",
+        "tipo": "Afiado",
+        "desc": "Um dragão belo e mortal, coberto de espinhos venenosos e com um fogo extremamente quente.",
+        "cor": "#C71585",
+        "cor texto": "#FFFFFF",
+        "imagem_dragao": "src/assets/dragoes/nadder_mortal.png",
+        "imagem_dragao_card": "src/assets/dragoes/nadder_mortal_card.png" 
+        },
+        {
+        "id": 12,
+        "especie": "Chicote Navalha",
+        "tipo": "Afiado",
+        "desc": "Um dragão elegante com asas incrivelmente afiadas e uma coloração prateada distintiva.",
+        "cor": "#C0C0C0",
+        "cor texto": "#000000",
+        "imagem_dragao": "src/assets/dragoes/cauda_navalha.png",
+        "imagem_dragao_card": "src/assets/dragoes/cauda_navalha_card.png" 
+        }
+    ]
+}
