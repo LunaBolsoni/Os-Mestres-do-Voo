@@ -6,8 +6,8 @@
       "desc": "Um dragão feroz e intimidador que pode cobrir seu corpo com chamas, tornando-se uma arma viva.",
       "cor": "#8B0000",
       "cor texto": "#FFFFFF",
-        "imagem_dragao": "src/assets/dragoes/ataque_triplo_card.png",
-        "imagem_dragao_card": "src/assets/dragoes/ataque_trip.png" 
+      "imagem_dragao": "src/assets/dragoes/pesadelo_monstruoso.png",
+      "imagem_dragao_card": "src/assets/dragoes/pesadelo_monstruoso_card.png" 
     },
     {
       "id": 2,
