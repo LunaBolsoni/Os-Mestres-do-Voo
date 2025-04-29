@@ -1,17 +1,13 @@
-<template>
-  <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
-    <div class="details">
-      <h3><script setup>
+
+<script setup>
 </script>
 
 <template>
- 
-  <div><img src="../dragoes/bafo-e-arroto.jpg" alt="Imagem" id="Imagem"></div>
   <div>
-    <h2>Asa-Eterna</h2>
+    <img src="../assets/dragoes/bafo-e-arroto.jpg" alt="Imagem" id="Imagem"></div>
+  <div>
+    <h2>Asa-Ete</h2>
+      <div><img src="../assets/dragoes/bafo-e-arroto.jpg" alt="Imagem" id="Imagem"></div>
     <p>O Asa-Eterna reside em um lado da montanha escondido por árvores e rochas. É a camuflagem perfeita para este Dragão, que prefere passar o tempo dormindo! </p>
   </div>
 </template>
@@ -19,7 +15,7 @@
 <style scoped>
 
 #Imagem {
-  width: em;
+  width: 1em;
 }
 
 h2 {
@@ -38,12 +34,7 @@ p {
 }
 </style>
 
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
-    </div>
-  </div>
-</template>
+
 
 <style scoped>
 .item {

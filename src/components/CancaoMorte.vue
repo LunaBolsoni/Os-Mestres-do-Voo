@@ -3,7 +3,7 @@
 
 <template>
  
-  <div><img src="../dragoes/cancao-da-morte.png" alt="Imagem" id="Imagem"></div>
+  <div><img src="@/assets/dragoes/cancao-da-morte.png" alt="Imagem" id="Imagem"></div>
   <div>
     <h2>Asa-Eterna</h2>
     <p>O Asa-Eterna reside em um lado da montanha escondido por árvores e rochas. É a camuflagem perfeita para este Dragão, que prefere passar o tempo dormindo! </p>
