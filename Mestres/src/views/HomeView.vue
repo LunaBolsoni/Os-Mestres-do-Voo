@@ -1,5 +1,13 @@
 <script setup>
-import AsaEterna from '../components/AsaEterna.vue'
+import { computed, ref } from 'vue';
+import { listaDragao } from '@/stores/counter';
+
+const showContent = ref(false);
+  const buttonText = computed(() =>
+    showContent.value ? 'Esconder' : 'Mostrar',
+  );
+
+// import AsaEterna from '../components/AsaEterna.vue'
 // import BafoEArroto from '@/components/BafoEArroto.vue';
 // import BestaImplacavel from '@/components/BestaImplacavel.vue';
 // import CancaoMorte from '@/components/CancaoMorte.vue';
@@ -15,9 +23,11 @@ import AsaEterna from '../components/AsaEterna.vue'
 </script>
 
 <template>
+<button v-for="dragao in listaDragao" :key="dragao.id" @click="showContent=!showContent"><div v-if="showContent=!showContent">{{ dragao.component }}</div></button>
   <main>
-    <AsaEterna  />
-    <!-- <BafoEArroto />
+    
+    <!-- <AsaEterna  /> 
+    <BafoEArroto />
     <BestaImplacavel />
     <CancaoMorte />
     <CortaChuva />

@@ -30,8 +30,6 @@
   }
 }
 
-header {}
-
 header ul {
   margin: auto;
   display: grid;
