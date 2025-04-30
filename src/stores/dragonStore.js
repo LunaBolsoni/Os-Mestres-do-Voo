@@ -21,6 +21,9 @@ export const useDragonsStore = defineStore('dragons', () => {
     if (!pinnedDragons.value.some(pinned => pinned.id === dragon.id)) {
       pinnedDragons.value.push(dragon);
     }
+    else{
+        alert(`Você já atingiu o limite de dragões fixados! ${pinnedDragons.value.length}`);
+    }
   }
 
     function unpinDragon(dragon) {

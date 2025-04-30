@@ -8,6 +8,7 @@ const dragonsStore = useDragonsStore();
 const dragoes = computed(() => dragonsStore.dragoes);
 const selectedDragon = ref(null);
 const pinnedDragons = ref(dragonsStore.pinnedDragons);
+const offHover = ref(true);
 
 onMounted(() => {
   dragonsStore.fetchDragoes();
@@ -28,7 +29,8 @@ onMounted(() => {
       </div>
       <div class="dragon">
         <div class="dragon-image">
-          <img :src="selectedDragon.imagem_dragao" alt="">
+          <img v-if="offHover" :src="selectedDragon.imagem_dragao" alt="" @mouseover="offHover = false">
+          <img v-else :src="selectedDragon.imagem_dragao_card" alt="" @mouseleave="offHover = true">
         </div>
         <div class="dragon-info">
           <h2 :style="{ backgroundColor: selectedDragon.cor, color: selectedDragon.cor_texto }">
@@ -76,7 +78,7 @@ onMounted(() => {
   justify-content: center;
   align-items: center;
   min-height: 350px;
-
+  margin-bottom: 20px;
 }
 .dragon img{
   max-width: 350px;
