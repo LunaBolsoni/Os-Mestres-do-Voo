@@ -9,6 +9,9 @@
     </div>
     <div class="bottom-div">
       <button class="button">Ver Dragões</button>
+      <div>
+        
+      </div>
     </div>
   </main>
 </template>
