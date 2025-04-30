@@ -114,4 +114,30 @@ onMounted(() => {
   width: 100%;
   height: 100%;
 }
+@media (max-width: 1200px) {
+  .container{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .dragon{
+    width: 100%;
+  }
+  .dragon-info {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .dragon-image img{
+    width: 100%;
+  }
+  .pin{
+    margin-left: 50px;
+  }
+  .cards-area{
+    width: 100%;
+  }
+}
 </style>

@@ -23,7 +23,7 @@ const actualPath = computed(() => route.path)
 <style scoped>
 .menu {
   position: fixed;
-  bottom: 80px;
+  bottom: 50px;
   left: calc(50% - 100px);
   width: 200px;
   display: flex;
