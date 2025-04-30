@@ -37,6 +37,12 @@ onMounted(() => {
             {{ selectedDragon.especie }}
           </h2>
           <p class="classe">CLASSE: <b>{{ selectedDragon.tipo }}</b></p>
+            <div class="atributos">
+                <p>ATRIBUTOS:</p>
+                <p>força: <strong>{{ selectedDragon.forca }}</strong></p>
+                <p>velocidade: <strong>{{ selectedDragon.velocidade }}</strong></p>
+                <p>inteligencia: <strong>{{ selectedDragon.inteligencia }}</strong></p>
+            </div>
           <p class="desc">{{ selectedDragon.desc }}</p>
         </div>
       </div>
@@ -45,6 +51,17 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.dragon{
+    display: flex;
+    flex-direction: column;
+  max-height: 600px;
+  overflow: scroll;
+  padding: 0px 10px;
+  overflow-x: hidden;
+}
+.atributos{
+  padding: 10px 0px 30px;
+}
 .pin button{
   display: flex;
   justify-content: center;
